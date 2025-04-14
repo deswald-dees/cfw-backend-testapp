@@ -1,0 +1,12 @@
+{
+	"name": "cfw-backend-testapp",
+	"version": "0.0.1",
+	"scripts": {
+		"default": "node src/index.js",
+		"non-cfw": "node src/index-non-cfw.js"
+	},
+	"dependencies": {
+		"dayjs": "^1.11.13",
+		"@whatwg-node/router": "^0.3.0"
+	}
+}
