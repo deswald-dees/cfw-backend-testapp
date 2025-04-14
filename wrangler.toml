@@ -8,4 +8,4 @@ command = "npm install"
 
 [vars]
 CF_APP_NAME = "cfw-backend-testapp"
-COMPLEX_ENV_VAR = { key1: "value1", key2: "value2", num1: 12345, boolVal1: true }
+COMPLEX_ENV_VAR = { key1 = "value1", key2 = "value2", num1 = 12345, boolVal1 = true }
