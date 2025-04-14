@@ -17,5 +17,9 @@ router.get('/info', request => Response.json({
 
 router.get('/users', request => Response.json(users));
 
+router.all('*', request => {
+	return new Response("No such endpoint handler", {	status: 404	});
+});
+
 const httpServer = createServer(router);
 httpServer.listen(3001);
